@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Playfair' sans-serif;
+    src: url(/assets/fonts/PlayfairDisplay-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Playfair' sans-serif;
+    src: url(/assets/fonts/PlayfairDisplay-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
