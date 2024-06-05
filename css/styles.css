@@ -17,3 +17,38 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.nav-link{
+    transition: all 0.2s;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid rgb(255, 145, 0);
+}
+
+.banner{
+    background-image: linear-gradient(100deg, #000000, #00000020) , url(/assets/img/home.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-banner{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+.content-banner p{
+    font-family: 'Playfair';
+    font-weight: normal;
+    font-size: 35px;
+    color:antiquewhite;
+}
+
+.content-banner h2{
+    font-family: 'Playfair';
+    font-weight: bold;
+    font-size: 50px;
+    color: antiquewhite;
+}
