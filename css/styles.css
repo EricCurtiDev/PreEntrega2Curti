@@ -60,9 +60,6 @@
     color: antiquewhite;
 }
 
-.main-content{
-    background-color: #fefae0;
-}
 
 .container-features{
     display: grid;
@@ -77,7 +74,7 @@
     justify-content: center;
     gap: 30px;
 
-    background-color: #fff;
+    background-color: antiquewhite;
     border-radius: 16px;
     padding: 10px 0;
 }
@@ -163,3 +160,10 @@
 }
 
 /*About*/
+
+.main-content p{
+    font-family: 'Playfair';
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
