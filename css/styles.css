@@ -271,3 +271,10 @@ input[type=submit]:hover {
     padding: 20px;
     margin: auto;
 }
+
+/*Location*/
+
+.gallery-img-3{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
