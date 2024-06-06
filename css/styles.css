@@ -278,3 +278,48 @@ input[type=submit]:hover {
     grid-column: 1/4;
     grid-row: 1/3;
 }
+
+/*Blog*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.form-content {
+    padding: 100px 0 70px 0;
+    text-align: center;
+}
+
+.form-content h2 {
+    font-family: 'Playfair';
+    font-size: 40px;
+    line-height: 90px
+    color: #3F3F3F;
+    margin-bottom: 25px;
+}
+
+.form-content .submit {
+    display: inline-block;
+    padding: 13px 45px;
+    font-size: 18px;
+    background-color: #E56820;
+    color: #FFFFFF;
+    border-radius: 25px;
+    border: 0;
+
+}
+
+.submit:hover {
+    color: #e9c46a;
+}
