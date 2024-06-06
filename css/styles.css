@@ -215,10 +215,6 @@
     .container-products{
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     }
-
-    .gallery{
-        grid-template-rows: repeat(2, 15rem);
-    }
 }
 
 /*About*/
@@ -239,5 +235,5 @@
 .gallery img{
     width: 90%;
     height: 90%;
-    margin-left: 40px;
+    margin:auto;
 }
