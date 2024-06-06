@@ -237,3 +237,37 @@
     height: 90%;
     margin:auto;
 }
+
+/*Contact*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+
+input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: orange;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: auto;
+}
