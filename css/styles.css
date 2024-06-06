@@ -215,6 +215,7 @@
     .container-products{
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     }
+
 }
 
 /*About*/
@@ -266,7 +267,7 @@ input[type=submit]:hover {
 }
 
 .form-container {
-    width: 1000px;
+    width: 400px;
     height: 570px;
     border-radius: 5px;
     background-color: antiquewhite;
