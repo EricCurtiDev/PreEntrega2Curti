@@ -266,6 +266,8 @@ input[type=submit]:hover {
 }
 
 .form-container {
+    width: 1000px;
+    height: 570px;
     border-radius: 5px;
     background-color: antiquewhite;
     padding: 20px;
